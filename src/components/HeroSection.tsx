@@ -20,14 +20,14 @@ const HeroSection = () => {
               de tu hotel fácilmente
             </span>
           </h1>
-          <p className="text-base md:text-lg text-gray-600 mb-4 md:mb-8 max-w-2xl mx-auto">
+          <p className="text-base md:text-lg text-gray-600 mb-4 md:mb-8 max-w-2xl mx-auto py-2 px-4">
             Sábanas, toallas y fundas organizadas visualmente. Control claro del estado de cada prenda 
             desde tu celular o cualquier dispositivo.
           </p>
           <img 
             src="/mucama-sf.png" 
             alt="Mucama Ilustración" 
-            className="mx-auto w-auto max-w-xs md:max-w-lg max-h-[32vh] md:max-h-[50vh] mt-20 md:mt-4 pt-6 md:pt-12 object-contain"
+            className="mx-auto w-auto max-w-sm md:max-w-lg max-h-[38vh] md:max-h-[50vh] mt-10 md:mt-4 pt-6 md:pt-12 object-contain"
           />
         </div>
       </div>
