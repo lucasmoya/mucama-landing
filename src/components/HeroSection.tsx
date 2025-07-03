@@ -13,7 +13,7 @@ const HeroSection = () => {
       </div>
       
       <div className="relative z-10 flex-grow flex flex-col items-center justify-center">
-        <div className="max-w-4xl mx-auto mt-20 md:mt-20 text-center px-2">
+        <div className="max-w-md md:max-w-4xl mx-auto mt-20 text-center px-4 md:px-2">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4 md:mb-6 leading-tight">
             Controla la ropa blanca
             <span className="block text-transparent bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text">

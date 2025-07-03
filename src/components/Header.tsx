@@ -8,7 +8,7 @@ const Header = () => {
           <img 
             src="/mucama-logo-morado.png" 
             alt="Mucama Logo" 
-            className="h-6 md:h-8 w-auto"
+            className="h-8 md:h-8 w-auto"
           />
         </div>
         <Button 
