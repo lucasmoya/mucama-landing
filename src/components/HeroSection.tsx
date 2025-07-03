@@ -21,7 +21,7 @@ const HeroSection = () => {
             </span>
           </h1>
           <p className="text-base md:text-lg text-gray-600 mb-4 md:mb-8 max-w-2xl mx-auto py-2 px-4">
-            Sábanas, toallas y fundas organizadas visualmente. Control claro del estado de cada prenda 
+            Sábanas, toallas y fundas organizadas visualmente. Control claro del estado de cada ítem 
             desde tu celular o cualquier dispositivo.
           </p>
           <img 
