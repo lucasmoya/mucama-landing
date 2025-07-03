@@ -29,15 +29,21 @@ const CTASection = () => {
             </Button>
           </div>
           
-          <div className="flex items-center justify-center gap-3 mt-6 text-gray-500 text-sm">
-            <Rocket className="w-4 h-4 text-purple-400 inline" />
-            <span>Prueba gratuita</span>
-            <span className="mx-1">•</span>
-            <Lock className="w-4 h-4 text-purple-400 inline" />
-            <span>Sin tarjeta de crédito</span>
-            <span className="mx-1">•</span>
-            <Zap className="w-4 h-4 text-purple-400 inline" />
-            <span>Configura tu hotel en minutos</span>
+          <div className="flex flex-col md:flex-row items-center justify-center gap-3 mt-6 text-gray-500 text-sm">
+            <div className="flex items-center gap-2 mb-2 md:mb-0">
+              <Rocket className="w-6 h-6 text-purple-400 inline" />
+              <span>Prueba gratuita</span>
+            </div>
+            <span className="hidden md:inline mx-1">•</span>
+            <div className="flex items-center gap-2 mb-2 md:mb-0">
+              <Lock className="w-6 h-6 text-purple-400 inline" />
+              <span>Sin tarjeta de crédito</span>
+            </div>
+            <span className="hidden md:inline mx-1">•</span>
+            <div className="flex items-center gap-2">
+              <Zap className="w-6 h-6 text-purple-400 inline" />
+              <span>Configura tu hotel en minutos</span>
+            </div>
           </div>
         </div>
       </div>
