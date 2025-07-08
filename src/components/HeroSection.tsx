@@ -50,7 +50,7 @@ const HeroSection = () => {
     >
       <div className="absolute inset-0 gradient-blue-light opacity-50 rounded-3xl mx-2 md:mx-6 my-2 md:my-6 border-8 border-purple-200"></div>
       <div className="relative z-10">
-        <Header />
+        <Header embedDesktop={embedDesktop} />
       </div>
       <div className="relative z-10 flex-grow flex flex-col items-center justify-center">
         <div
@@ -70,7 +70,7 @@ const HeroSection = () => {
           <img 
             src="/mucama-sf.png" 
             alt="Mucama Ilustración" 
-            className={`mx-auto w-auto ${embedDesktop ? "max-w-[320px] max-h-[120px]" : "max-w-sm md:max-w-lg max-h-[38vh] md:max-h-[50vh]"} mt-6 md:mt-4 pt-4 md:pt-12 object-contain`}
+            className={`mx-auto w-auto ${embedDesktop ? "max-w-[380px] max-h-[170px] mb-0 pb-0" : "max-w-sm md:max-w-lg max-h-[38vh] md:max-h-[50vh]"} ${embedDesktop ? "mt-8" : "mt-6 md:mt-4 pt-4 md:pt-12"} object-contain" style={embedDesktop ? {display: 'block', marginBottom: 0, paddingBottom: 0} : {}}`}
           />
         </div>
       </div>
