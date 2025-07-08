@@ -34,7 +34,7 @@ const NotFound = () => {
             <a href="/" className="text-purple-500 hover:text-purple-700 underline">
               <ArrowLeft className="inline mr-1 h-4 w-4" />
               Volver atrás
-            </a>
+        </a>
           </div>
         </div>
       </div>

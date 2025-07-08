@@ -19,7 +19,7 @@ const HowItWorksSection = () => {
             <CardContent className="p-6">
               <div className="w-16 h-16 gradient-blue rounded-full flex items-center justify-center mx-auto mb-4">
                 <CheckCircle className="w-8 h-8 text-white" />
-              </div>
+            </div>
               <h3 className="text-lg font-bold mb-2">1. Registro Simple</h3>
               <p className="text-gray-600 text-sm">
                 Escanea QR o selecciona habitación. Marca estado: limpia, sucia, en lavandería
@@ -31,7 +31,7 @@ const HowItWorksSection = () => {
             <CardContent className="p-6">
               <div className="w-16 h-16 gradient-blue rounded-full flex items-center justify-center mx-auto mb-4">
                 <Clock className="w-8 h-8 text-white" />
-              </div>
+          </div>
               <h3 className="text-lg font-bold mb-2">2. Sincronización</h3>
               <p className="text-gray-600 text-sm">
                 Todos los cambios se reflejan en tiempo real. Equipo coordinado sin confusiones
@@ -43,11 +43,11 @@ const HowItWorksSection = () => {
             <CardContent className="p-6">
               <div className="w-16 h-16 gradient-blue rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8 text-white" />
-              </div>
+            </div>
               <h3 className="text-lg font-bold mb-2">3. Coordinación</h3>
               <p className="text-gray-600 text-sm">
                 Mucamas, supervisores y lavandería trabajan con la misma información actualizada
-              </p>
+            </p>
             </CardContent>
           </Card>
 
@@ -55,11 +55,11 @@ const HowItWorksSection = () => {
             <CardContent className="p-6">
               <div className="w-16 h-16 gradient-blue rounded-full flex items-center justify-center mx-auto mb-4">
                 <TrendingUp className="w-8 h-8 text-white" />
-              </div>
+            </div>
               <h3 className="text-lg font-bold mb-2">4. Optimización</h3>
               <p className="text-gray-600 text-sm">
                 Reportes automáticos te ayudan a reducir pérdidas y mejorar la eficiencia
-              </p>
+            </p>
             </CardContent>
           </Card>
         </div>

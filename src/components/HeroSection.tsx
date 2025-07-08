@@ -1,11 +1,20 @@
+import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Play } from "lucide-react";
 import Header from "@/components/Header";
 
 const HeroSection = () => {
+  const [isEmbed, setIsEmbed] = useState(false);
+
+  useEffect(() => {
+    if (window.self !== window.top && window.innerWidth < 700) {
+      setIsEmbed(true);
+    }
+  }, []);
+
   return (
-    <section className="relative h-screen flex flex-col px-6 py-6 overflow-hidden">
+    <section className={`relative h-screen flex flex-col px-6 py-6 overflow-hidden ${isEmbed ? "hero-embed" : ""}`}>
       <div className="absolute inset-0 gradient-blue-light opacity-50 rounded-3xl mx-6 my-6 border-8 border-purple-200"></div>
       
       <div className="relative z-10">

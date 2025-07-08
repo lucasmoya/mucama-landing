@@ -43,7 +43,7 @@ const CTASection = () => {
             <div className="flex items-center gap-2">
               <Zap className="w-6 h-6 text-purple-400 inline" />
               <span>Configura tu hotel en minutos</span>
-            </div>
+        </div>
           </div>
         </div>
       </div>

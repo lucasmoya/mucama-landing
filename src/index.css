@@ -111,3 +111,13 @@
     transform: translateY(-20px);
   }
 }
+
+.hero-embed {
+  transform: scale(0.85);
+  transform-origin: top center;
+  min-width: 900px;
+  width: 900px;
+  max-width: none !important;
+  margin-left: auto;
+  margin-right: auto;
+}
